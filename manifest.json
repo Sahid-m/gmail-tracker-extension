@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Job Tracker",
+  "version": "0.0.1",
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "host_permissions": ["https://google.com/*"]
+}
